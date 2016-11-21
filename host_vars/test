@@ -1,0 +1,14 @@
+db:
+    user: devuser
+    password: haodaiwang123
+    name: devops
+    primary: 
+        host: 192.168.10.60
+        port: 3306
+    replica:
+        host: 192.168.10.61
+        port: 3306
+
+redis:
+    host: 192.168.10.62
+    port: 6379

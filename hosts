@@ -1,0 +1,10 @@
+[web]
+nginx1 ansible_ssh_host=106.3.36.87 ansible_ssh_port=5822
+nginx2 ansible_ssh_host=106.3.36.87 ansible_ssh_port=5922
+
+[nginx]
+nginx1
+nginx2
+
+[php:children]
+nginx
